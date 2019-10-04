@@ -1,6 +1,10 @@
+#!/usr/bin/env python3
 import serial
 
-ser = serial.Serial('/dev/ttyUSB1',9600, timeout=1)
+serial_port = '/dev/ttyUSB1'
+m90e26_baudrate = 9600
+
+ser = serial.Serial(serial_port, m90e26_baudrate, timeout=1)
 
 try:
     while True:
