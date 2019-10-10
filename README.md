@@ -40,3 +40,13 @@ Change `serial_port` in `modbus_master.py` to actual serial port.
 Run `modbus_master.py`. 
 
 Check that the `modbus_master.py` script exits without exceptions (errors).
+
+## First calibration of internal RC oscillator
+Change `serial_port` in `calibration.py`. 
+Run `calibration.py`.
+Wait for `Success.`
+
+## Force calibration of internal RC oscillator
+Change `serial_port` in `force_calibration.py`. 
+Run `force_calibration.py`.
+Wait for `Success.`
